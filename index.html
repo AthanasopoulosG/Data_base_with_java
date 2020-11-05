@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+
+p {
+	font-size:1.6em;
+	text-align:center;
+	text-shadow:1px 1px #000000;
+	}
+
+.centered {
+	text-align:center;	
+}
+
+input {
+	display:inline-block;
+}
+
+body {
+
+	background-image:url("https://fleetimages.bobitstudios.com/upload/trucking-info/content/news/2020-08/system-2660914_1920-__-720x516-s.jpg");
+	background-color:#bdbdbd;
+ 	background-repeat: no-repeat; 
+  	background-size: cover;
+}
+
+</style> 
+
+<body>
+	<form action="./InsertData" method="post"> 
+        <p>Enter product's barcode:</p>  
+        <div class="centered">
+        	<input  type="text"  name="barcode" /> 
+        </div>
+        <br/>
+        <div class="centered">
+        <input type="submit" value="Submit Barcode"/> 
+        </div>
+    </form> 
+</body>
+</html>
